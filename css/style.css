@@ -303,8 +303,13 @@ footer img{
 
 ul {
     list-style-image:url(../slike/numbering_icon.png);
+
 }
-	
+
+li{
+	font-size: 10pt;
+	font-family: 'Josefin Sans';
+}
 
 
 
