@@ -13,7 +13,7 @@ nav{background-color: #000000;
 
 .navbar-brand{
 	position: relative;
-	background: url(../slike/Consola_nav.png);
+	background: url(../slike/consola_nav.png);
 	width: 231px;
 	height: 55px;
 	background-size: contain;
@@ -118,13 +118,6 @@ h1{text-align:center;
 
 .oba-stupca{margin-top:50px;}
 
-.napr{margin-top:50px;}
-
-.napr p {font-size: 12px;
-		margin-left: 10%;
-}
-
-
 .slika-gumb{
 	position:relative;
 	margin-top:150px;
@@ -213,9 +206,7 @@ footer img{
 	position:fixed;
 	top:30%;
 	width: 5%;
-	margin-left: 90%;
-	margin-right: 5%;
-	
+	margin-left: 95%;	
 	
 }
 
@@ -285,43 +276,31 @@ footer img{
 
 .slikaf{
 	position: relative;
-	background: url(../slike/footer.png);
+	background: url(../slike/Footer.png);
 	width: 231px;
 	height: 55px;
 	background-size: contain;
 	margin-left: 40px;
 	background-repeat: no-repeat; 
 }
-	
+
+.oba-stupca{margin-top: 10%;
+			margin-bottom: 10%;}	
 .oba-stupca p{
 		font-size: 12px;
 	}
 
-.svi-tecajevi{
+#svi-tecajevi{
 	margin-bottom: 20px;
 }
+	
 
-.grafika{
-	width: 60px;
-	height: 65px;
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
-ul {
-    list-style-image:url(../slike/numbering_icon.png);
-
-}
-
-li{
-	font-size: 10pt;
-	font-family: 'Josefin Sans';
-}
 
 
 
 
 @media only screen and (max-width: 991px){
-footer .nestani{
-		display:none;
-	}	}
+footer .nestani{display:none;}
+.slika-na-drugo{order:2;}
+.tekst-na-prvo{order:1;}
+}
