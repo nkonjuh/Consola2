@@ -294,8 +294,25 @@ footer img{
 	margin-bottom: 20px;
 }
 	
+.grafika{
+	width: 60px;
+	height:65px;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
 
-
+ul {
+    list-style-image: url(../slike/numbering_icon.png);
+	font-family: 'Josefin Sans';
+	
+}
+.kupuj{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+}
 
 
 
